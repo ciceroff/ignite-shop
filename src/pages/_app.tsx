@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Container>
       <Header>Ignite Shop</Header>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </Container>
   );
 }
